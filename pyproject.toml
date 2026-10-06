@@ -1,0 +1,27 @@
+[project]
+name = "40k7-portfolio"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "Hoàng Minh Đức", email = "hoangminhduc0308@gmail.com" }
+]
+requires-python = ">=3.14"
+dependencies = [
+    "altair[all]>=6.3.0",
+    "ipykernel>=7.4.0",
+    "ipywidgets>=8.1.9",
+    "nbconvert>=7.17.1",
+    "pandas>=3.0.6",
+    "polars[numpy,pandas]>=1.44.2",
+    "scipy>=1.18.1",
+    "seaborn>=0.13.2",
+    "ucimlrepo>=0.0.7",
+]
+
+[project.scripts]
+40k7-portfolio = "40k7_portfolio:main"
+
+[build-system]
+requires = ["uv_build>=0.12.20,<0.13.0"]
+build-backend = "uv_build"
