@@ -11,11 +11,15 @@ dependencies = [
     "altair[all]>=6.3.0",
     "ipykernel>=7.4.0",
     "ipywidgets>=8.1.9",
+    "matplotlib>=3.11.2",
     "nbconvert>=7.17.1",
     "pandas>=3.0.6",
     "polars[numpy,pandas]>=1.44.2",
+    "scikit-learn>=1.9.1",
+    "scikit-learn-intelex>=2026.2.0",
     "scipy>=1.18.1",
     "seaborn>=0.13.2",
+    "tabulate>=0.10.0",
     "ucimlrepo>=0.0.7",
 ]
 
